@@ -46,5 +46,8 @@ public class ProductCatalogue extends abstractComponent{
 		getProductName(productName).findElement(addToCart).click();
 		waitForElementToAppear(toastMessage);
 		waitForElementToDisAppear(spinner);
+		System.out.println("Demo1");
+		System.out.println("Demo1");
+		System.out.println("Demo1");
 	}
 }
